@@ -45,6 +45,10 @@ i {
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
 }
+
+#navbarSupportedContent ul li a:hover {
+  	color: #88BB3E;
+}
 #navbarSupportedContent>ul>li.active>a{
 	color: #F7F5ED;
 	background-color: transparent;
@@ -180,8 +184,4 @@ i {
 .tabcontent {
   float: center;
   padding: 12px 12px;
-}
-
-a:hover {
-  color: #88BB3E;
 }
