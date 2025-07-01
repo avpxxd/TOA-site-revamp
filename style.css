@@ -181,3 +181,7 @@ i {
   float: center;
   padding: 12px 12px;
 }
+
+a:hover {
+  color: #88BB3E;
+}
