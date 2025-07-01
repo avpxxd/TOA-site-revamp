@@ -98,3 +98,14 @@ jQuery(document).ready(function($){
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
+
+
+
+$(document).ready(function(){
+  $("#menu-toggle").click(function(e){
+    e.preventDefault();
+    $("#wrapper").toggleClass("menuDisplayed");
+  });
+});
