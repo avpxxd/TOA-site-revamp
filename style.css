@@ -170,7 +170,7 @@ i {
 
 /* Style the tab */
 .tab {
-  float: left;
+  float: center;
   background-color: #323232;
   width: 20%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -178,7 +178,6 @@ i {
 
 /* Style the tab content */
 .tabcontent {
-  float: left;
-  padding: 0px 12px;
-  width: 70%;
+  float: center;
+  padding: 12px 12px;
 }
